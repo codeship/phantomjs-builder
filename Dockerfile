@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM ubuntu:wily
 MAINTAINER maintainer@codeship.com
 
 ENV PACKAGE_DEPENDENCIES build-essential g++ flex bison gperf ruby perl \
